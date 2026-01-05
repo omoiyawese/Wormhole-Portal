@@ -1,0 +1,25 @@
+> *"I want to build a 'WORM (EIP-7503) Community Portal.'
+> 1. The Education Tab: > - Create a clean 'How it Works' section.
+>  * Explain that WORM uses Private Proof-of-Burn and zk-SNARKs to make privacy native to Ethereum.
+>  * Include a 'Burn Simulator' slider: when you slide it, show 'ETH' burning into fire and 'WORM' tokens appearing out of a wormhole.
+
+> 2. The Mastery Quiz Tab: > - Create a 10-question quiz with 4 multiple-choice options for each.
+>  * Visual Feedback: When a user clicks an answer, the button should turn Green for correct or Red for wrong.
+>  * Progress Bar: Show a progress bar at the top that fills as they go.
+
+> 3. Questions to Include: > | 1 | What EIP number is WORM based on? | EIP-7503 | EIP-1559, EIP-721, EIP-4844 |
+| 2 | What is the project's main slogan? | Privacy is Normal | Burn to Earn, Code is Law, WORM to the Moon |
+| 3 | What is the total supply of $WORM? | 21 Million | 100 Million, 1 Billion, Unlimited |
+| 4 | How do you acquire WORM tokens? | Private Proof of Burn | Staking ETH, Buying on Uniswap, Bridging |
+| 5 | What tech secures WORM's privacy? | zk-SNARKs | Optimistic Rollups, Sidechains, Sharding |
+| 6 | What happens to ETH when you mint WORM? | It is burned forever | It goes into a pool, It is locked for 1 year, It is sent to founders |
+| 7 | Who proposed EIP-7503? | Nobitex Labs | Vitalik Buterin, Coinbase, OpenSea |
+| 8 | How many Worm NFTs are in the free-mint? | 7,503 | 10,000, 5,555, 1,000 |
+| 9 | Why is WORM "Plausibly Deniable"? | Burning looks like a mistake | It uses a VPN, It hides your IP, It's on a Layer 3 |
+| 10 | What is the $WORM halving period? | 4 Years | 1 Year, 6 Months, No Halving |
+
+> 4. The Reward (The WL Flex):
+>  * If they get 10/10, show a screen with a high-quality 'WORM CHAD' badge.
+>  * Add a button: 'Verify my Score on Twitter' that tags @EIP7503.
+> 5. Professional Design: > - Use a 'Deep Sea' dark theme (dark blues and blacks) with glowing 'Worm' purple accents.
+>  * Make it 'Mobile Responsive' so it works on Twitter’s in-app browser."*
