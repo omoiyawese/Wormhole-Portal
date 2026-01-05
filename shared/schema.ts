@@ -1,18 +1,19 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar } from "drizzle-orm/pg-core";
+import { pgTable, text, serial, integer, timestamp, boolean, real } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const globalStats = pgTable("global_stats", {
+  id: serial("id").primaryKey(),
+  totalEthBurned: real("total_eth_burned").default(0),
+  totalQuizzesTaken: integer("total_quizzes_taken").default(0),
+  perfectScores: integer("perfect_scores").default(0),
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
-});
+export const insertGlobalStatsSchema = createInsertSchema(globalStats);
+export type GlobalStats = typeof globalStats.$inferSelect;
+export type InsertGlobalStats = z.infer<typeof insertGlobalStatsSchema>;
 
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
+// Request types
+export type UpdateBurnRequest = { amount: number };
+export type SubmitQuizRequest = { score: number };
+export type StatsResponse = GlobalStats;
